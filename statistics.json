@@ -1,0 +1,42 @@
+{
+    "0": {
+        "Maximo": 128,
+        "Minimo": 114,
+        "Promedio": 122.96,
+        "Mediana": 123.0,
+        "Desviacion_Estandar": 2.8702613121456384,
+        "Rango_Intercuartilico": 4.0
+    },
+    "1": {
+        "Maximo": 120,
+        "Minimo": 111,
+        "Promedio": 115.08,
+        "Mediana": 115.0,
+        "Desviacion_Estandar": 1.8093092604637826,
+        "Rango_Intercuartilico": 2.0
+    },
+    "2": {
+        "Maximo": 117,
+        "Minimo": 110,
+        "Promedio": 113.68,
+        "Mediana": 114.0,
+        "Desviacion_Estandar": 1.713942822850284,
+        "Rango_Intercuartilico": 3.0
+    },
+    "3": {
+        "Maximo": 115,
+        "Minimo": 108,
+        "Promedio": 112.44,
+        "Mediana": 112.5,
+        "Desviacion_Estandar": 1.6511813952440235,
+        "Rango_Intercuartilico": 2.0
+    },
+    "4": {
+        "Maximo": 115,
+        "Minimo": 108,
+        "Promedio": 111.76,
+        "Mediana": 112.0,
+        "Desviacion_Estandar": 1.3937001112147476,
+        "Rango_Intercuartilico": 2.0
+    }
+}
