@@ -102,7 +102,7 @@ class MPA_VRP:
             return new_predator
         return predator
 
-
+"""
 max_iter = [200, 200, 200 , 200, 200]
 num_predators = [20, 70, 100, 120, 150]
 
@@ -111,7 +111,7 @@ for i in range(5):
     data = {}
     for j in range(50):
         # Crear instancia del MPA para VRP
-        mpa_vrp = MPA_VRP(matriz_costos_16_clientes, max_iter[i], num_predators[i])
+        mpa_vrp = MPA_VRP(cost_matrix, max_iter[i], num_predators[i])
 
         # Optimizar la ruta
         mpa_vrp.optimize()
@@ -124,10 +124,10 @@ for i in range(5):
 # Exportar a archivo JSON
 with open('data_global.json', 'w') as file:
     json.dump(data_global, file, indent=4)
-
+"""
 
 # Crear instancia del MPA para VRP
-mpa_vrp = MPA_VRP(matriz_costos_16_clientes)
+mpa_vrp = MPA_VRP(cost_matrix)
 
 # Optimizar la ruta
 mpa_vrp.optimize()
